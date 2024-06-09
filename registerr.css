@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 8vw;
+    background-color:#1FA3F8;
+    border-radius: 0 12px 0 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f1f1f1;
+    padding: 0 20px;
+}
+.header .home {
+    font-weight: bold;
+    color: yellow;
+}
+.header .image img{
+    height: 100px;
+    border-radius: 50px;
+}
+.text-right {
+    text-align: right !important;
+}
+h4 {
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 600;
+}
+h5{
+	font-weight: bold;
+	font-size: 45px;
+
+}
+h6{
+	font-size: 20px;
+	 color: black;
+}
+.alert {
+    padding: 50px;
+	padding-right: 559px;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+	font-size: 20px;
+}
+
+.text-right .container{
+	align-items: center;
+	padding-right: 40px;
+}
+.main {
+	align-items: center;
+}
+.form-control {
+    padding: .375rem .75rem;
+    line-height: 1.3;
+    color: #495057;
+	text-align: center;
+	justify-content: space-between;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+button, input {
+    overflow: visible;
+}
+.alert-primary {
+    color: #004085;
+    border-color: #b8daff;
+}
+body {
+    font-weight: 400;
+    background: #9fcdff;
+    font-family: 'iranyekan', 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 1.75em;
+    overflow-x: hidden;
+    text-align: left;
+    direction: rtl;
+}
+.btn {
+    display: inline-block;
+    direction: rtl;
+    text-align: center;
+    font-weight: 400;
+}
